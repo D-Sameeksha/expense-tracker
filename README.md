@@ -36,13 +36,13 @@ A modern React-based expense tracking application that helps users manage their 
 1. Clone the repository
 
 bash
-git clone <repository-url>
+git clone https://github.com/D-Sameeksha/expense-tracker.git
 
 
-2. Navigate to the project folder
+2. Go into the project folder
 
 bash
-cd client
+cd expense-tracker/client
 
 
 3. Install dependencies
@@ -55,10 +55,6 @@ npm install
 
 bash
 npm run dev
-
-
----
-
 
 ## 📂 Project Structure
 
