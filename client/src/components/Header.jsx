@@ -1,9 +1,9 @@
 function Header() {
   return (
-    <header>
-      <h1>Smart Expense Tracker</h1>
-      <p>Developed by D Sameeksha</p>
-    </header>
+    <div className="header">
+      <h1>💰 Smart Expense Tracker</h1>
+      <p>Track your income and expenses efficiently</p>
+    </div>
   );
 }
 

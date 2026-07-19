@@ -1,16 +1,102 @@
-# React + Vite
+# 💰 Smart Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based expense tracking application that helps users manage their income and expenses efficiently.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add Income
+- Add Expense
+- Delete Transactions
+- Search Transactions
+- Filter Transactions
+- Categories
+- Date & Time
+- Pie Chart
+- Dark Mode
+- Export to CSV
+- Local Storage
+- Responsive Design
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Vite
+- Recharts
+- Local Storage API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Installation
+
+1. Clone the repository
+
+bash
+git clone <repository-url>
+
+
+2. Navigate to the project folder
+
+bash
+cd client
+
+
+3. Install dependencies
+
+bash
+npm install
+
+
+4. Start the development server
+
+bash
+npm run dev
+
+
+---
+
+
+## 📂 Project Structure
+
+text
+client/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── BalanceCard.jsx
+│   │   ├── IncomeExpenseCard.jsx
+│   │   ├── TransactionForm.jsx
+│   │   ├── TransactionList.jsx
+│   │   ├── ExpenseChart.jsx
+│   │   └── ExportCSV.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+## 🔮 Future Enhancements
+
+- Edit Transaction
+- User Authentication
+- Monthly Reports
+- Budget Planning
+- Cloud Database Integration
+- Multiple Currency Support
+
+---
+
+## 👩‍💻 Author
+
+**D Sameeksha**
+
+Built using React.js and Vite as a portfolio project to demonstrate frontend development skills.

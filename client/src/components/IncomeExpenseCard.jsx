@@ -1,14 +1,18 @@
-function IncomeExpenseCard() {
+import { FaArrowUp, FaArrowDown } from "react-icons/fa";
+
+function IncomeExpenseCard({ income, expense }) {
   return (
-    <div className="income-expense-container">
-      <div className="income-card">
-        <h2>Income</h2>
-        <h3>₹0</h3>
+    <div className="income-expense">
+      <div className="income-box">
+        <FaArrowUp size={28} color="green" />
+        <h3>Income</h3>
+        <h2>₹{income}</h2>
       </div>
 
-      <div className="expense-card">
-        <h2>Expense</h2>
-        <h3>₹0</h3>
+      <div className="expense-box">
+        <FaArrowDown size={28} color="red" />
+        <h3>Expense</h3>
+        <h2>₹{expense}</h2>
       </div>
     </div>
   );
